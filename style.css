@@ -182,7 +182,8 @@
     color: #000000;
     margin-bottom: 15px;
     padding-right: 40px;
-    text-transform: uppercase
+    text-transform: uppercase;
+    cursor: pointer;
 }
 
 .promo_interactive-item span {
@@ -194,6 +195,7 @@
     width: 20px;
     height: 20px;
     background: url("icons/Star.svg") center/cover no-repeat;
+    cursor: pointer;
 }
 
 .promo_interactive-item:before {
@@ -203,7 +205,8 @@
     display: block;
     width: calc(100% - 40px);
     height: 2px;
-    background-color: #FFD500
+    background-color: #FFD500;
+    cursor: pointer;
 }
 
 .promo_interactive-item:hover .delete {
